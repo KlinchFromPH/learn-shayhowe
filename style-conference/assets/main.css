@@ -381,3 +381,47 @@ p a {
 .speaker {
     margin-bottom: 44px;
 }
+
+.speaker-info img {
+    border-radius: 50%;
+    height: 130px;
+    margin-bottom: 22px;
+    margin-top: -66px;
+    vertical-align: top;
+}
+
+/* 
+    ========================================
+    Teasers
+    ========================================
+*/
+
+.teaser img {
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+}
+
+/* 
+    ========================================
+    Venue
+    ========================================
+*/
+
+.venue-theatre {
+    margin-bottom: 66px;
+}
+
+.venue-hotel {
+    margin-bottom: 22px;
+}
+
+.venue-map {
+    height: 264px;
+}
+
+.why-attend {
+    list-style-type: square;
+    margin: 0 0 22px 30px;
+}
