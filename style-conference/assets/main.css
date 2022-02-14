@@ -134,6 +134,21 @@ h1, h3, h4, h5, p {
 
 /* 
     ========================================
+    Lead
+    ========================================
+*/
+
+.lead {
+    text-align: center;
+}
+
+.lead p {
+    font-size: 21px;
+    line-height: 33px;
+}
+
+/* 
+    ========================================
     Button
     ========================================
 */
@@ -333,3 +348,36 @@ p a {
     color: #648880;
 }
 
+/* 
+    ========================================
+    Navigation
+    ========================================
+*/
+
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+/* 
+    ========================================
+    Speaker
+    ========================================
+*/
+
+.speaker-info {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 88px; 
+    padding: 22px 0;
+    text-align: center;
+}
+
+.speaker {
+    margin-bottom: 44px;
+}
